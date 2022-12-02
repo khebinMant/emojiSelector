@@ -16,7 +16,7 @@
 
 ## Live demo
 
-[Live demo link](https://todo-app-kevin-mantilla.netlify.app/)
+[Live demo link](https://emoji-selector-km.vercel.app/)
 
 ## Run it locally
 
