@@ -8,5 +8,6 @@ export const EmojiButton = ({ emoji, onClick }) => {
     <span style={{cursor:'pointer'}} className="button-emoji" onClick={handleOnClick}>
         {emoji.character}
     </span>
+    
   )
 }
