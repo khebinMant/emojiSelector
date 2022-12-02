@@ -1,0 +1,139 @@
+.project-content{
+    background: rgb(11,67,88);
+    background: linear-gradient(90deg, rgba(11,67,88,1) 73%, rgba(1,11,13,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cell-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.left-screen{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.right-screen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.chat-bar{
+    color: #FFFF;
+    background-color: #202C33;
+    font-size: 30px;
+    display: inline;
+    height: 50px;
+    width: 100%;
+}
+.search-emoji{
+    color: #FFFF;
+    background-color: #202C33;
+    font-size:25px;
+    display: inline;
+    height: 50px;
+    width: auto;
+}
+.content-bar{
+    background-color: #202C33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-low{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.scroll-div
+{
+    width: auto;
+    height: auto;
+    overflow-y: scroll;
+}
+.todos-container{
+    color: #FFFF;
+    background-image: url('../assets/ws.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 95%;
+}
+.message-box{
+    position: relative;
+    background-color: #005C4B;
+    margin: 10px 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+.custom-btn{
+    cursor: pointer;
+    height: 40%;
+    width: auto;
+}
+.delete-icon{
+    margin-top: 7px;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}   
+.button-emoji{
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+}
+.not-found{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .button-emoji{
+        height: 1px;
+        width: 1px;
+        background-color: transparent;
+    }
+    .custom-btn{
+        margin: auto;
+        text-align: center;
+        height: auto;
+    }
+    .message-box{
+        font-size: 8px;
+        position: relative;
+        margin: 10px 5px;
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+    }
+    .chat-bar{
+        color: #FFFF;
+        background-color: #202C33;
+        font-size: 10px;
+        display: inline;
+        height: 40px;
+        width: 100%;
+    }
+    .search-emoji{
+        color: #FFFF;
+        background-color: #202C33;
+        font-size: 10px;
+        display: inline;
+        height: 40px;
+        width: 100%;
+    }
+    .content-bar{
+        flex-direction: column;
+    }
+  }
