@@ -41,6 +41,9 @@
 
 - **Juan Sebastian Sotomayor**
 
+- [Vida MRR Programación web](https://www.youtube.com/watch?v=oT-feDPuJmk&t=5148s&ab_channel=VidaMRR-Programacionweb/)
+
 ## 🤲 Show your support
 
 - Give me a ⭐ if you like it!
+
